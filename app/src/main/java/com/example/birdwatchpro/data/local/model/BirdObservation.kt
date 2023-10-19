@@ -1,4 +1,4 @@
-package com.example.embeddedmap.data.model
+package com.example.birdwatchpro.data.local.model
 
 data class BirdObservation(
     val id: Int,

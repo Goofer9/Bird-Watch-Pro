@@ -1,4 +1,4 @@
-package com.example.embeddedmap.data.local.database
+package com.example.birdwatchpro.data.local.database
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

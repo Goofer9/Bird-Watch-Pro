@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.birdwatchpro.R
 import com.example.birdwatchpro.databinding.ObservationListItemBinding
-import com.example.embeddedmap.data.local.database.BirdObservationEntity
+import com.example.birdwatchpro.data.local.database.BirdObservationEntity
 
 class ObservationAdapter : ListAdapter<BirdObservationEntity, ObservationAdapter.ObservationViewHolder>(DiffCallback()) {
 
