@@ -4,10 +4,11 @@ package com.example.birdwatchpro.settings
 
 import android.content.SharedPreferences
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.ActionBar
+import androidx.appcompat.app.AppCompatActivity
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.PreferenceManager
+import com.example.birdwatchpro.R
 
 class SettingsActivity : AppCompatActivity() {
 

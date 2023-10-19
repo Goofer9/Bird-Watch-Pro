@@ -6,7 +6,8 @@ import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.embeddedmap.R
+import com.example.birdwatchpro.R
+import com.example.birdwatchpro.databinding.ObservationListItemBinding
 import com.example.embeddedmap.data.local.database.BirdObservationEntity
 
 class ObservationAdapter : ListAdapter<BirdObservationEntity, ObservationAdapter.ObservationViewHolder>(DiffCallback()) {
@@ -18,7 +19,6 @@ class ObservationAdapter : ListAdapter<BirdObservationEntity, ObservationAdapter
         )
         return ObservationViewHolder(binding)
     }
-
 
     override fun onBindViewHolder(holder: ObservationViewHolder, position: Int) {
         val observation = getItem(position)
@@ -42,3 +42,4 @@ class ObservationAdapter : ListAdapter<BirdObservationEntity, ObservationAdapter
         }
     }
 }
+

@@ -1,11 +1,10 @@
 package com.example.birdwatchpro.observation
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.embeddedmap.R
-import com.example.embeddedmap.data.local.database.BirdObservationDao
+import com.example.birdwatchpro.R
 
 
 class ObservationListActivity : AppCompatActivity() {
@@ -17,7 +16,7 @@ class ObservationListActivity : AppCompatActivity() {
         setContentView(R.layout.activity_observation_list)
 
         // Initialize RecyclerView and Adapter
-        observationRecyclerView = findViewById(r.id.observationRecyclerView)
+        observationRecyclerView = findViewById(R.id.observationRecyclerView)
         observationAdapter = ObservationAdapter()
 
         // Set up RecyclerView with LayoutManager and Adapter
